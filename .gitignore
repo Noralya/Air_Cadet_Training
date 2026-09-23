@@ -1,0 +1,51 @@
+# Dart/Flutter
+.metadata
+pubspec.lock
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/settings.gradle.kts
+android/gradle.properties
+android/gradle/wrapper/gradle-wrapper.properties
+
+# iOS
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcodeproj/
+ios/Runner.xcworkspace/
+ios/Flutter/
+ios/RunnerTests/
+ios/Runner/Runner-Bridging-Header.h
+ios/Runner.xcodeproj/
+ios/Runner.xcworkspace/
+
+# Linux
+linux/.ccls-cache/
+linux/build/
+linux/flutter/
+linux/runner/
+
+# Pub
+pubspec.lock
+
+# Logs et cache
+*.log
+*.cache
+.cache/
