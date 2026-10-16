@@ -112,7 +112,7 @@ class _MentalMath2ScreenState extends State<MentalMath2Screen> {
 			),
 			const SizedBox(height: 8),
 			Text(
-				"Quel est le plus petit intervalle contenant le resultat ?",
+				"Quel est le plus petit intervalle contenant le résultat ?",
 				textAlign: TextAlign.center,
 				style: theme.textTheme.titleMedium,
 			),
@@ -148,8 +148,8 @@ class _MentalMath2ScreenState extends State<MentalMath2Screen> {
 			CorrectionBanner(
 				isCorrect: _isCorrect!,
 				message: _isCorrect!
-					? "Bonne reponse (resultat : ${_question.result})"
-					: "Resultat : ${_question.result} - reponse attendue : "
+					? "Bonne réponse (résultat : ${_question.result})"
+					: "Résultat : ${_question.result} - réponse attendue : "
 						"[${_question.options[_question.correctIndex].lower}, "
 						"${_question.options[_question.correctIndex].upper}]",
 			),

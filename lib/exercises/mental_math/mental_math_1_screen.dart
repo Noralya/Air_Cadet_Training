@@ -142,8 +142,8 @@ class _MentalMath1ScreenState extends State<MentalMath1Screen> {
 			CorrectionBanner(
 				isCorrect: _isCorrect!,
 				message: _isCorrect!
-					? "Bonne reponse"
-					: "Reponse attendue : ${_expression.result}",
+					? "Bonne réponse"
+					: "Réponse attendue : ${_expression.result}",
 			),
 		],
 		);

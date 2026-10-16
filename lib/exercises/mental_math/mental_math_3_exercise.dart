@@ -13,7 +13,7 @@ class MentalMath3Exercise implements Exercise {
 			id: "psy1_numerique_calcul_mental_3",
 			name: "Calcul mental 3",
 			shortDescription:
-				"Resolvez une chaine d'equations et entrez la valeur du dernier parametre.",
+				"Résolvez une chaine d'équations et entrez la valeur du dernier paramètre.",
 			psyType: PsyType.psy1,
 			category: ExerciseCategory.numerique,
 			timerMode: TimerMode.global,

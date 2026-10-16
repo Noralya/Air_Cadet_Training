@@ -138,7 +138,7 @@ class _MentalMath4ScreenState extends State<MentalMath4Screen> {
 			),
 			const SizedBox(height: 8),
 			Text(
-				"Selectionnez tous les intervalles contenant le resultat",
+				"Selectionnez tous les intervalles contenant le résultat",
 				textAlign: TextAlign.center,
 				style: theme.textTheme.titleMedium,
 			),
@@ -171,7 +171,7 @@ class _MentalMath4ScreenState extends State<MentalMath4Screen> {
 			const SizedBox(height: 12),
 			Center(
 				child: FilterChip(
-					label: const Text("Pas de reponses"),
+					label: const Text("Pas de réponses"),
 					selected: _noneSelected,
 					onSelected: _locked ? null : (_) => _toggleNone(),
 				),
@@ -188,10 +188,10 @@ class _MentalMath4ScreenState extends State<MentalMath4Screen> {
 				CorrectionBanner(
 				isCorrect: _isCorrect!,
 				message: _isCorrect!
-					? "Bonne reponse (resultat : ${_question.result})"
+					? "Bonne réponse (résultat : ${_question.result})"
 					: _question.hasNoCorrectAnswer
-						? "Resultat : ${_question.result} - aucun intervalle ne convenait"
-						: "Resultat : ${_question.result}",
+						? "Résultat : ${_question.result} - aucun intervalle ne convenait"
+						: "Résultat : ${_question.result}",
 				),
 			],
 		),
